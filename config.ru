@@ -1,4 +1,4 @@
-require 'oneliner.rb'
+require './oneliner.rb'
 require 'rack'
 
 class Web
