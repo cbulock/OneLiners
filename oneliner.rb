@@ -3,7 +3,6 @@ require 'mustache'
 
 class Oneliner < Mustache
 	def line
-		#IO.readlines('lines').sample
-		'Hello'
+		IO.readlines('lines').sample
 	end
 end
