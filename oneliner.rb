@@ -2,8 +2,8 @@ require 'rubygems'
 require 'mustache'
 
 class Oneliner < Mustache
-	def initalize
-		@line = IO.readlines('lines').sample	
+	def initialize
+		@line = IO.readlines('lines').sample.strip	
 	end
 
 	def line
