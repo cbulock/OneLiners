@@ -9,4 +9,4 @@ require 'rack'
 
 #Rack::Handler::WEBrick.run Web.new
 
-run lambda { |env| [200, {'Content-Type'=>'text/html'}, Oneliner.render)] }
+run lambda { |env| [200, {'Content-Type'=>'text/html'}, Oneliner.render] }
