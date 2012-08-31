@@ -3,6 +3,6 @@ require 'rack'
 
 test = '<html><h1>Test</h1></html>'
 
-run lambda { |env| 
+run proc { |env| 
 	[200, {'Content-Type'=>'text/html'}, 'Test'] 
 }
