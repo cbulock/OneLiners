@@ -12,6 +12,28 @@ h1 {
 </head>
 <body>
 <h1>{{line}}</h1>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000"
+            width="110"
+            height="14"
+            id="clippy" >
+    <param name="movie" value="clippy.swf"/>
+    <param name="allowScriptAccess" value="always" />
+    <param name="quality" value="high" />
+    <param name="scale" value="noscale" />
+    <param NAME="FlashVars" value="text=#{{line}}">
+    <param name="bgcolor" value="#FFFFFF">
+    <embed src="clippy.swf"
+           width="110"
+           height="14"
+           name="clippy"
+           quality="high"
+           allowScriptAccess="always"
+           type="application/x-shockwave-flash"
+           pluginspage="http://www.macromedia.com/go/getflashplayer"
+           FlashVars="text=#{{line}}"
+           bgcolor="#FFFFFF"
+    />
+    </object>
 <a href="https://github.com/cbulock/OneLiners"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub"></a>
 </body>
 </html>
